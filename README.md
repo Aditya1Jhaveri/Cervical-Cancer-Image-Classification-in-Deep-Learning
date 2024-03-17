@@ -1,4 +1,3 @@
-
 # Cervical Cancer Image Classification in Deep Learning
 
 # Overview
@@ -14,9 +13,10 @@ The dataset undergoes rigorous preprocessing to ensure quality and consistency i
 - Normalization: Image intensities are normalized for consistent analysis.
 
 - Enhancement Techniques:
-   - CLAHE (Contrast Limited Adaptive Histogram Equalization): Enhances image contrast.
-   - Median Filter: Reduces noise and improves image clarity.
-    - NLM Filter (Non-Local Means Denoising): Further enhances image quality.
+
+  - CLAHE (Contrast Limited Adaptive Histogram Equalization): Enhances image contrast.
+  - Median Filter: Reduces noise and improves image clarity.
+  - NLM Filter (Non-Local Means Denoising): Further enhances image quality.
 
 - Image augmentation techniques are also applied to enrich the dataset and improve model robustness:
   - NLM Augmentation: Incorporates NLM filtering for enhanced data diversity.
@@ -35,6 +35,7 @@ The project utilizes transfer learning and fine-tuning techniques to leverage pr
 Transfer learning helps in enhancing the predictive capability of the models by utilizing features learned from large-scale datasets. Fine-tuning involves unfreezing the last two layers of each pre-trained model to adapt them specifically to the SCC classification task.
 
 # Ensemble Technique
+
 An ensemble technique is then applied to combine the strengths of individually fine-tuned models. This results in an ensemble model with an accuracy exceeding 97%. The ensemble method boosts the overall performance and robustness of the classification system.
 
 # Results
