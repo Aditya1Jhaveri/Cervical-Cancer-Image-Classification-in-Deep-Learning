@@ -1,5 +1,9 @@
 # Cervical Cancer Image Classification in Deep Learning
 
+# Link to the Web Application
+
+Check out a GitHub repo of [Cervical Cancer Predictor](https://github.com/Dhruv195/Cervical-Cancer-Predictor)
+
 # Overview
 
 This repository hosts the Cervical Cancer Image Classification project, a comprehensive effort aimed at improving the classification accuracy of Squamous Cell Carcinoma (SCC) through advanced deep learning models and ensemble techniques. The project utilizes the Herlev dataset, consisting of 917 images, including both multi-cell and single-cell samples.
